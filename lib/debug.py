@@ -6,8 +6,6 @@ from classes.many_to_many import Author
 from classes.many_to_many import Magazine
 
 if __name__ == '__main__':
-    print("HELLO! :) let's debug :vibing_potato:")
-
-
-    # don't remove this line, it's for debugging!
-    ipdb.set_trace()
+    dict = {1:2, 3:4, 5:6}
+    for each in dict:
+        print(each)
